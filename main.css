@@ -1,0 +1,120 @@
+.all {
+    background-color: #191919;
+    color: #ccc;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #191919;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #ffa424;
+    color: #2c2c2c;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #ffa424;
+}
+
+.navbar-toggler {
+    background-color: rgba(255, 164, 36, 0.8)
+}
+
+.section-title {
+    font-family: cinzel decorative;
+    font-weight: 600;
+}
+
+.text-colored {
+    color: #ffa424;
+}
+
+h2 {
+    display: inline;
+}
+
+.row {
+    justify-content: center;
+}
+
+#sobre h2,
+#diferenciais h2,
+#cardapio h2,
+#fale-conosco h2 {
+    border-top: 4px solid #ffa424;
+    padding-top: 6px;
+    justify-content: center;
+}
+
+#diferenciais h2 {
+    width: 240px;
+}
+
+#cardapio h2 {
+    width: 180px;
+}
+
+#fale-conosco h2 {
+    width: 170px;
+}
+
+#p-rest {
+    margin-top: 16px;
+}
+
+.nav-cardapio .nav-link.active,
+.nav-cardapio .nav-link.active:hover,
+#fale-conosco button {
+    background-color: #ffa424;
+    color: #191919;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #ffa424;
+}
+
+form input,
+form textarea {
+    opacity: .8;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+p {
+    text-align: justify;
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 95%;
+    }
+    
+    .carousel-item img {
+        height: 250px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container #sobre {
+        display: block;
+    }
+}
